@@ -1,0 +1,43 @@
+body, .login-bg {
+    min-height: 100vh;
+    background: linear-gradient(120deg, #cde1fd 0%, #f9fbff 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.login-card {
+    border-radius: 20px;
+    border: none;
+    background: #fff;
+    box-shadow: 0 4px 32px 0 rgba(26,115,232,.07);
+    max-width: 400px;
+    margin: auto;
+}
+.card {
+    border-radius: 18px !important;
+}
+.btn-primary {
+    background: #1976d2;
+    border: none;
+    border-radius: 8px;
+}
+.btn-primary:hover {
+    background: #1565c0;
+}
+.navbar {
+    border-radius: 10px;
+}
+.table {
+    background: #fff;
+    border-radius: 14px;
+}
+input[type="file"] {
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+/* Thumbnail cover styling used across admin and anggota views */
+.cover-thumb {
+    width: 60px;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}

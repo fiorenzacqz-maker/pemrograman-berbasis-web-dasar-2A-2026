@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Fio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+  <nav class="fixed w-full bg-gray-900/80 backdrop-blur-md z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="font-bold text-lg">Fio</h1>
+      <div class="flex gap-6 text-sm">
+        <a href="#skills" class="hover:text-yellow-400">Skills</a>
+        <a href="#projects" class="hover:text-yellow-400">Projects</a>
+        <a href="#contact" class="hover:text-yellow-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="h-screen flex items-center">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6">
+      <div class="flex justify-center">
+        <img
+          src="foto/foto bg biru.jpeg"
+          alt="Foto profil Fiorenza"
+          class="rounded-full w-64 h-64 object-cover border-4 border-gray-400 shadow-lg hover:scale-105 transition"
+        >
+      </div>
+
+      <div>
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Fiorenza Clarabelle Quenetta Sianturi
+        </h2>
+
+        <p class="text-gray-400 mb-2">
+          Mahasiswa Teknik Sistem Informasi
+        </p>
+
+        <p class="text-gray-500 mb-6">
+          Saya memiliki minat di bidang teknologi khususnya web development.
+          Saya suka membuat website yang sederhana, modern, dan nyaman digunakan.
+        </p>
+
+        <a href="https://wa.me/6285787126791?text=Halo%20Fio,%20saya%20ingin%20menghubungi%20Anda" 
+           class="flex items-center gap-2 bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-300 transition w-fit">
+          WhatsApp Saya
+        </a>
+
+        <a
+          href="mailto:fiorenza.cqz@gmail.com?subject=Halo%20Fio&body=Halo%20Fio,%20saya%20ingin%20menghubungi%20Anda"
+          class="mt-3 flex items-center gap-2 bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-300 transition w-fit"
+        >
+          Email Saya
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="bg-gray-800 py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10">Skills</h2>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+        <div class="bg-gray-700 p-6 rounded-xl text-center">HTML</div>
+        <div class="bg-gray-700 p-6 rounded-xl text-center">CSS</div>
+        <div class="bg-gray-700 p-6 rounded-xl text-center">Phyton</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="max-w-6xl mx-auto py-20 px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+
+    <div class="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+      <div class="bg-gray-800 rounded-xl">
+        <div class="p-4">
+          <p class="text-gray-400 text-sm">Website produk minuman</p>
+          <a href="landing page/landing.html">
+            <h3 class="font-bold">Landing Page</h3>
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-gray-800 rounded-xl">
+        <div class="p-4">
+          <p class="text-gray-400 text-sm">Sistem perpustakaan</p>
+          <a href="rak-buku/index.html">
+            <h3 class="font-bold">Rak Buku</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-gray-800 py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">Contact</h2>
+    <p class="text-gray-400 mb-2">WhatsApp: 085787126791</p>
+    <p class="text-gray-400 mb-6">Email: fiorenza.cqz@gmail.com</p>
+
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-3">
+      <a
+        href="https://wa.me/6285787126791?text=Halo%20Fio,%20saya%20ingin%20menghubungi%20Anda"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center gap-2 bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-300 transition"
+      >
+        WhatsApp Saya
+      </a>
+      <a
+        href="mailto:fiorenza.cqz@gmail.com?subject=Halo%20Fio&body=Halo%20Fio,%20saya%20ingin%20menghubungi%20Anda"
+        class="flex items-center gap-2 bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-300 transition"
+      >
+        Email Saya
+      </a>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-gray-500">
+    © 2026 Fio Portfolio
+  </footer>
+
+</body>
+</html>

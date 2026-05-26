@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>soal1</title>
+</head>
+
+<body class="m-0 p-0">
+    <div class="flex h-screen w-full">
+            <div class="w-1/2 bg-[#5F7AEA] text-white flex flex-col justify-center px-24">
+                <h1 class="text-[48px] font-bold leading-tight mb-6">
+                Hello Prospective <br> Students
+                </h1>
+                <img src="ASSET/UTS/gambar_login page.png" class="w-[420px] mb-8 ml-12">
+                <p class="text-[16px] font-medium leading-snug w-[460px]">
+                Unlock your professional potential. Learn from industry leaders and stay ahead of the competition.
+                </p>
+            </div>
+        <div class="w-1/2 bg-[#EEF1F8] flex justify-center items-center">
+
+        <div class="w-[380px] text-center">
+            <h2 class="text-[38px] font-bold text-gray-800 mb-1">
+            LOGIN PAGE
+            </h2>
+
+            <p class="text-gray-500 mb-8 text-sm">
+            Masukkan Username dan Password Anda
+            </p>
+
+            <form id="loginForm">
+                <input type="text" id="email" placeholder="Email Address"
+                class="w-full h-[52px] rounded-lg border border-gray-300 bg-white px-4 mb-1 text-center text-blue-700 placeholder:text-blue-700">
+
+                <p id="errorEmail" class="text-red-500 text-sm text-left mb-2"></p>
+
+                <input type="password" id="password" placeholder="Password"
+                class="w-full h-[52px] rounded-lg border border-gray-300 bg-white px-4 mb-1 text-center text-blue-700 placeholder:text-blue-700">
+
+                <p id="errorPassword" class="text-red-500 text-sm text-left mb-3"></p>
+
+                <button type="submit"
+                class="w-full h-[52px] bg-[#3B5ED7] hover:bg-blue-800 text-white rounded-lg font-semibold shadow">
+                Login
+                </button>
+
+            </form>
+
+            <div class="flex items-center gap-3 my-5">
+                <div class="flex-1 h-[1px] bg-gray-400"></div>
+                <p class="text-gray-500 text-sm">Or Login With</p>
+                <div class="flex-1 h-[1px] bg-gray-400"></div>
+            </div>
+
+            <div id="googleBtn" class="w-full h-[52px] bg-white border border-gray-300 rounded-lg flex justify-center items-center gap-3 shadow">
+                <img src="ASSET/UTS/google.jpeg" class="w-5 h-5">
+                <span class="text-sm font-semibold text-gray-700">
+                Sign in with Account Google
+                </span>
+            </div>
+
+        </div>
+
+        </div>
+
+    </div>
+
+    <script src="no1.js"></script>
+</body>
+</html>
